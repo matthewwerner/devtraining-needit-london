@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>false</active>
+        <annotation/>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description>Check for overdue NeedIt Tasks
+Close the overdue tasks
+Update the work notes for the task with a reason
+Log the automatic closure</description>
+        <internal_name>update_overdue_needit_tasks</internal_name>
+        <label_cache>[{"name":"8c9daed9-58b5-4395-89b5-fa6193afb578.calculated_date","label":"1➛Calculated date","reference_display":"Calculated date","type":"glide_date","base_type":"glide_date"},{"name":"70e83be4-7076-464d-bd97-e586bd775a94.preoprty_name","label":"1➛preoprty_name","reference_display":"preoprty_name","type":"string","base_type":"string"},{"name":"76e393ee-0c4d-45d6-8405-d0ae75fef90b.preoprty_name","label":"1➛property_value","type":"string","base_type":"string"},{"name":"e8e39025-e396-4f14-8e12-9dcb33b3244a.calculated_date","label":"2➛Calculated date","type":"glide_date","base_type":"glide_date"},{"name":"3df5ab0c-78cf-4ee4-86bf-ebc49e1471d9.Records","label":"3➛NeedIt Task Records","reference":"x_58872_needit_needit_task","reference_display":"NeedIt Task","type":"records","base_type":"records"},{"name":"3df5ab0c-78cf-4ee4-86bf-ebc49e1471d9.Table","label":"3➛Table","reference_display":"Table","type":"table_name","base_type":"table_name"},{"name":"3df5ab0c-78cf-4ee4-86bf-ebc49e1471d9.Count","label":"3➛Count","reference_display":"Count","type":"integer","base_type":"integer"},{"name":"7a67c229-705d-4aa1-9d2c-a48989fc9b46.item","label":"4➛NeedIt Task Record","reference":"x_58872_needit_needit_task","reference_display":"NeedIt Task","type":"reference","base_type":"reference"},{"name":"7a67c229-705d-4aa1-9d2c-a48989fc9b46.item.number","label":"4➛NeedIt Task Record➛Number","reference":"","reference_display":"Number","type":"string","base_type":"string","parent_table_name":"x_58872_needit_needit_task","column_name":"number"},{"name":"7a67c229-705d-4aa1-9d2c-a48989fc9b46.item.due_date","label":"4➛NeedIt Task Record➛Due date","reference":"","reference_display":"Due date","type":"glide_date_time","base_type":"glide_date_time","parent_table_name":"x_58872_needit_needit_task","column_name":"due_date"}]</label_cache>
+        <latest_snapshot/>
+        <master_snapshot/>
+        <name>Update Overdue NeedIt Tasks</name>
+        <outputs/>
+        <remote_trigger_id/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>draft</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-10-18 15:51:21</sys_created_on>
+        <sys_id>c600cdecdb152300b6ba5385ca96192b</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Update Overdue NeedIt Tasks</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_hub_flow_c600cdecdb152300b6ba5385ca96192b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-10-19 01:15:19</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=c600cdecdb152300b6ba5385ca96192b"/>
+    <sys_variable_value action="delete_multiple" query="document_key=c600cdecdb152300b6ba5385ca96192b"/>
+</record_update>
